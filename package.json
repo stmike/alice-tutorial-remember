@@ -1,0 +1,21 @@
+{
+  "name": "remember-forget",
+  "version": "1.0.0",
+  "description": "Voice app (aka skill) for Alice -- a voice assistant from Yandex.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alice",
+    "yandex",
+    "vui",
+    "cui"
+  ],
+  "author": "Michael Zakharov",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^8.8.0",
+    "lodash": "^4.17.15"
+  }
+}
