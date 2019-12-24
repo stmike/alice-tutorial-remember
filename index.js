@@ -10,7 +10,7 @@ const lex = require('./src/lexicon');
 // Инициализируем Firestore:
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://remember-and-forget.firebaseio.com'
+  databaseURL: 'https://your-project-name.firebaseio.com' // Заменить на актуальный URL!
 });
 
 // Устанавливаем связь с БД, в которой будем хранить список юзеров (коллекция users):
